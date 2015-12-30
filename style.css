@@ -1,0 +1,110 @@
+html {
+    height: 100%;
+}
+
+body {
+    background-color: #000000;
+    margin: 0px;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    border: none;
+}
+
+/* Button */
+button {
+  display: inline-block;
+  position: relative;
+  line-height: 32px;
+  border-radius: 2px;
+  font-size: 0.9em;
+  background-color: #fff;
+  color: #646464;
+  background-color: gray;
+  color: #fff;
+  transition: box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  transition-delay: 0.2s;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+}
+
+h1 {
+  position: absolute;
+  left: calc(50% - 280px);
+  width: 600px;
+  top: 200px;
+  z-index: 80;
+  text-align: center;
+  color: white;
+  text-shadow: black 0 0 0.2em;
+  font-size: 8em;
+}
+
+#preview {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 80;
+}
+
+#clockbox {
+    display: table;
+    position: absolute;
+    height: 200px;
+    width: 450px;
+    margin: -100px 0 0 -200px;
+    top: 50%;
+    left: 50%;
+    /*background-color: hsla(180, 7%, 51%, 0.6);*/
+    z-index: 80;
+}
+
+#clock {
+    display: table-cell;
+    position: relative;
+    color: white;
+    text-shadow: black 0 0 0.2em;
+    text-align: center;
+    vertical-align: middle;
+    z-index: 90;
+    font-size: 7em;
+}
+
+canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 70;
+}
+
+#bgcontainer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width:  100%;
+    z-index: 10;
+}
+
+#webcam {
+    height: 100%;
+    width:  100%;
+    z-index: 10;
+}
+
+#right {
+  position: absolute;
+  z-index: 80;
+  bottom: 5px;
+  left: 5px;
+  color: white;
+}
+
+footer {
+  position: absolute;
+  z-index: 80;
+  bottom: 5px;
+  right: 5px;
+  color: white;
+}
