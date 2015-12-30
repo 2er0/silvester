@@ -1,3 +1,3 @@
 # silvester
 
-thanks to: http://jsfiddle.net/dtrooper/AceJJ/ for the fireworks
+thanks to: http://jsfiddle.net/dtrooper/AceJJ/ for the firework
